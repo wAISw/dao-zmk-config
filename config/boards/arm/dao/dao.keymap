@@ -30,11 +30,11 @@
 // ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮           ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
     &kp ESC    &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T                  &kp Y      &kp U      &kp I      &kp O      &kp P      &kp LBKT   &kp BSPC
 // ╰──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────╯
-               &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G                  &kp H      &kp J      &kp K      &kp L      &kp SEMI   &mt RCTRL SQT
+               &kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G                  &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
 //            ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-               &kp LALT   &kp Z      &kp X      &kp C      &kp V      &kp B                  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &mt RALT BSLH
+               &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B                  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &mt LSHFT BSLH
 //            ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-                                                &lt RSE RET &mo LWR &mt LSHFT SPACE          &mt LSHFT SPACE &mo RSE &lt LWR CAPS
+                                                &kp LALT   &mo LWR    &kp SPACE              &kp SPACE  &mo RSE    &kp CAPS
 //                                             ╰──────────┴──────────┴──────────╯           ╰──────────┴──────────┴──────────╯
                         >;
                 };
@@ -45,9 +45,9 @@
 // ╰──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────╯
                &kp LCTRL  &none      &kp GRAVE  &kp PIPE   &kp LBRC   &kp GT                 &kp EQUAL  &kp RBRC   &kp MINUS  &kp COLON  &kp DQT    &kp QMARK
 //            ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-               &kp LALT   &none      &kp TILDE  &kp BSLH   &kp LBKT   &kp LT                 &kp UNDER  &kp RBKT   &kp PLUS   &kp SEMI   &kp APOS   &kp SLASH
+               &trans     &none      &kp TILDE  &kp BSLH   &kp LBKT   &kp LT                 &kp UNDER  &kp RBKT   &kp PLUS   &kp SEMI   &kp APOS   &mt LSHFT SLASH
 //            ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-                                                &mo ADJ    &trans     &trans                 &trans     &mo ADJ     &trans
+                                                &kp RET    &trans     &trans                 &trans     &mo ADJ     &kp RET
 //                                             ╰──────────┴──────────┴──────────╯           ╰──────────┴──────────┴──────────╯
                         >;
                 };
@@ -59,9 +59,9 @@
 // ╰──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────╯
                &kp LCTRL  &kp N6     &kp N7     &kp N8     &kp N9     &kp N0                 &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none      &kp C_VOL_UP
 //            ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-               &kp LALT &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_PLUS &kp KP_MINUS &kp KP_DOT    &kp END    &kp PG_DN  &none      &none      &none      &kp C_VOL_DN
+               &trans &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_PLUS &kp KP_MINUS &kp KP_DOT      &kp END    &kp PG_DN  &none      &none      &none      &kp C_VOL_DN
 //            ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
-                                                &trans     &mo ADJ    &trans                 &trans     &trans     &mo ADJ
+                                                &kp RET    &mo ADJ    &trans                 &trans     &trans     &kp RET
 //                                             ╰──────────┴──────────┴──────────╯           ╰──────────┴──────────┴──────────╯
                         >;
                 };
