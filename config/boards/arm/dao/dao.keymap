@@ -63,11 +63,11 @@
 //            ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮           ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
                &trans     &trans     &trans     &trans     &trans     &trans                 &trans     &trans     &trans     &trans     &trans     &trans
 // ╭──────────├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤──────────╮
-    &trans     &kp TAB    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                 &kp HOME   &kp PG_UP  &none      &none      &none      &kp DEL    &trans
+    &trans     &kp TAB    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                 &kp HOME   &kp PG_UP  &none      &none      &PSCRN     &kp DEL    &trans
 // ╰──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────╯
                &kp LCTRL  &kp N6     &kp N7     &kp N8     &kp N9     &kp N0                 &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none      &kp C_VOL_UP
 //            ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-               &trans &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_PLUS &kp KP_MINUS &kp KP_DOT      &kp END    &kp PG_DN  &none      &none      &none      &kp C_VOL_DN
+               &trans &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_PLUS &kp KP_MINUS &kp KP_DOT      &kp END    &kp PG_DN  &none      &none      &INS       &kp C_VOL_DN
 //            ╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤           ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
                                                 &kp RET    &mo ADJ    &trans                 &trans     &trans     &kp LWIN
 //                                             ╰──────────┴──────────┴──────────╯           ╰──────────┴──────────┴──────────╯
