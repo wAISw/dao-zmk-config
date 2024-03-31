@@ -17,6 +17,13 @@
 &mt { quick_tap_ms = <100>; };
 
 / {
+    chosen {
+        // zmk,matrix_transform = &default_transform;
+        zmk,matrix_transform = &extra_keys_transform;
+    };
+};
+
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
