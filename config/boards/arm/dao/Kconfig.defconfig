@@ -28,6 +28,7 @@ config ZMK_SPLIT
 	default y
 
 config BT_CTLR
+
 	default BT
 
 config ZMK_BATTERY_VOLTAGE_DIVIDER
