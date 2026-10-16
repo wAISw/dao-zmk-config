@@ -14,12 +14,12 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick_tap_ms = <150>; };
-&mt { quick_tap_ms = <100>; };
+&lt { quick-tap-ms = <150>; };
+&mt { quick-tap-ms = <100>; };
 
 / {
     chosen {
-        zmk,physical_layout = &dao_full_layout;
+        zmk,physical-layout = &dao_full_layout;
     };
 };
 

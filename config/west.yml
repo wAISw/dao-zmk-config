@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ergonautkb
-      url-base: https://github.com/ergonautkb
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 4dd95d7840eb3d5a3f59bb29fbf1ab054715ef85
       import: app/west.yml
-    - name: ergonautkb-zmk-module
-      remote: ergonautkb
-      revision: main
   self:
     path: config

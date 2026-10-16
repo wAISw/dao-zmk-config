@@ -1,0 +1,13 @@
+boards:
+  - name: dao_left
+    vendor: dao
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
+  - name: dao_right
+    vendor: dao
+    socs:
+      - name: nrf52840
+        variants:
+          - name: zmk
