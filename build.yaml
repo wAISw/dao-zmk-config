@@ -1,13 +1,12 @@
 include:
-  - board: dao_left
-  - board: dao_right
-  - board: dao_left
+  - board: dao_left//zmk
+    artifact-name: dao_left
+  - board: dao_right//zmk
+    artifact-name: dao_right
+  - board: dao_left//zmk
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: dao_left_studio
-  - board: dao_right
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: dao_right_studio
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
+    artifact-name: settings_reset

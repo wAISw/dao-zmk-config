@@ -1,0 +1,4 @@
+name: dao
+build:
+  settings:
+    board_root: .
